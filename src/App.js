@@ -1,9 +1,10 @@
 import React from 'react'
+import Home from './components/pages/Home'
+
+
 
 const App = () => {
-  return (
-    <div className=' font-extrabold '>{5+5}</div>
-  )
+  return (<Home/>)
 }
 
 export default App
